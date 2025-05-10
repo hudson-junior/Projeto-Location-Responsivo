@@ -1,0 +1,146 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Poppins;
+  box-sizing: border-box;
+}
+
+.header {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  letter-spacing: 0.88px;
+  text-align: center;
+  margin-top: 47px;
+  margin-right: 32px;
+  color: #17233D;
+  cursor: pointer;
+}
+
+header {
+  margin-left: 42px;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  background-color: #6FBF44;
+  color: #FFFFFF;
+  width: 124px;
+  height: 51px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: #4CB538;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+.img {
+  width: 595px;
+  top: 246px;
+  margin: 163px 0 0 121px;
+  display: inline-block;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 62px;
+  line-height: 82px;
+  letter-spacing: 0.6px;
+  color: #161A49;
+  width: 582px;
+  height: 164px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 33px;
+  letter-spacing: 0.5px;
+  color: #4B505A;
+  width: 493px;
+  height: 99px;
+  margin-top: 47px;
+  margin-bottom: 55px;
+}
+
+.learn-more {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 1px;
+  color: #6FBF44;
+  cursor: pointer;
+}
+
+section {
+  display: inline-block;
+  margin-left: 84px;
+}
+
+button:hover {
+  opacity: 0.7;
+}
+
+a:hover {
+  opacity: 0.7;
+}
+
+button:active {
+  opacity: 0.3;
+}
+
+a:active {
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 1000px) {
+  .header {
+    display: none;
+  }
+
+  section {
+    display: block;
+  }
+
+  button {
+    width: 91px;
+    height: 31px;
+    font-size: 12px;
+    position: absolute;
+    right: 15px;
+    top: 10px;
+  }
+
+  h1 {
+    font-size: 30px;
+    line-height: 30px;
+    letter-spacing: 0.6px;
+    text-align: center;
+    margin: 124px auto 0px auto;
+    height: 60px;
+    width: 280px;
+  }
+
+  p {
+    width: 304px;
+    height: 170px;
+    text-align: center;
+    margin: 29px auto;
+    display: block;
+  }
+
+  .learn-more {
+    display: block;
+    text-align: center;
+  }
+
+  .img {
+    width: 90%;
+    height: auto;
+    display: block;
+    margin: 59px auto;
+  }
+}
