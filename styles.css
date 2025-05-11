@@ -81,19 +81,19 @@ section {
 }
 
 button:hover {
-  opacity: 0.7;
+  opacity: .7;
 }
 
 a:hover {
-  opacity: 0.7;
+  opacity: .7;
 }
 
 button:active {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 a:active {
-  opacity: 0.3;
+  opacity: .3;
 }
 
 @media screen and (max-width: 1000px) {
